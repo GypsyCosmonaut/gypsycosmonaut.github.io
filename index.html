@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 
@@ -9,8 +9,15 @@
 
 <script>
 document.getElementById("demo").innerHTML = 5 + 6;
-window.setTimeout(function(){ function(){window.location = "https://www.google.co.in"; }, 3000);
 </script>
 
+<script>
+document.write("hello world");
+window.setTimeout(
+	function()
+		{ window.location.replace('https://www.google.co.in'); 
+		}
+	,3000);
+</script>
 </body>
 </html> 
