@@ -5,6 +5,19 @@
 <h1>My First Web Page</h1>
 <p>My First Paragraph</p>
 
+<img src='https://g.gravizo.com/svg?
+ digraph G {
+   main -> parse -> execute;
+   main -> init;
+   main -> cleanup;
+   execute -> make_string;
+   execute -> printf
+   init -> make_string;
+   main -> printf;
+   execute -> compare;
+ }
+'/>
+
 <p id="demo"></p>
 
 <script>
